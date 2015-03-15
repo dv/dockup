@@ -15,6 +15,9 @@ RUN apt-get install -y build-essential autoconf bison build-essential libssl-dev
 # For nokogiri
 RUN apt-get install -y libxml2-dev libxslt1-dev
 
+# For mysql
+RUN apt-get install -y libmysqlclient-dev
+
 # For postgres
 RUN apt-get install -y libpq-dev
 
