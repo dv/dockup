@@ -10,7 +10,7 @@ RUN apt-get update
 RUN apt-get install -y git
 
 # Install ruby build environment
-RUN apt-get install -y build-essential autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev
+RUN apt-get install -y build-essential autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev libssl-dev
 
 # Get ruby-build
 RUN mkdir /sources
