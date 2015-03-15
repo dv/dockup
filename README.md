@@ -56,7 +56,14 @@ $ dockdown
 ==> default: Saving VM state and suspending execution...
 ```
 
+Every time you want to use `docker`, make sure you run `dockup` once in your shell, which will set up the correct `DOCKER_HOST` variable:
 
+```
+$ dockup
+# ...
+$ docker ps
+# ...
+```
 
 ## History
 
