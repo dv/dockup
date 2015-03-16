@@ -38,6 +38,10 @@ Bringing machine 'default' up with 'parallels' provider...
     default: SSH address: 10.211.55.6:22
     default: SSH username: docker
     default: SSH auth method: private key
+==> boot2docker: Exporting NFS shared folders...
+==> boot2docker: Preparing to edit /etc/exports. Administrator privileges will be required...
+Password:
+==> boot2docker: Mounting NFS shared folders...
 ==> default: Machine booted and ready!
 Client version: 1.5.0
 Client API version: 1.17
@@ -49,6 +53,8 @@ Server API version: 1.17
 Go version (server): go1.4.1
 Git commit (server): a8a31ef
 ```
+
+As you can see, it's possible Vagrant will ask for your OS X password. This is so the VM can mount the local paths using NFS.
 
 ```
 $ dockdown
